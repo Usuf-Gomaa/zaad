@@ -1,0 +1,325 @@
+{
+  "version": "0.4.0",
+  "date": "2026-11-23",
+  "deployed": false,
+  "deploymentAuthorized": false,
+  "artifacts": [
+    {
+      "directory": "dist",
+      "mode": "public",
+      "buildIds": [
+        "0.4.0+8fc7ce2af6e2"
+      ],
+      "files": [
+        {
+          "file": "_headers",
+          "sha256": "ff6c3feaeed62d3089d8d14e808a1aacba96fa235b711f0d221e855ee9b5544f",
+          "bytes": 422
+        },
+        {
+          "file": "_redirects",
+          "sha256": "6036983e5fc00f0169c9e939b1816ed771eee00e27f2fcc517b819041460b9ef",
+          "bytes": 19
+        },
+        {
+          "file": "assets/index-Be76EPu7.js",
+          "sha256": "8c58571824bbd65268eee87ac82c3bb5c495287664b648c7ecb410675473dce4",
+          "bytes": 474528
+        },
+        {
+          "file": "assets/index-Ci-N2k9b.css",
+          "sha256": "16734623a26a246b920fef41a7cdc64c29e4604d155ae4a5d97b132537af5787",
+          "bytes": 9022
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-400-normal-1AoZhAAW.woff",
+          "sha256": "3f3d49ef3202e3fe1ce4501bb194b9480b937fe4375da826b816b1dab0650ce2",
+          "bytes": 87400
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-400-normal-U_i0HMfG.woff2",
+          "sha256": "9cc2d2e90f7b51904468558b4ed529de8a8206497c8edb5e33122bd077e0158c",
+          "bytes": 52668
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-700-normal-BdBAMxnO.woff2",
+          "sha256": "d2d8e6b155248d6706e2e9c6019e88d435873801efe3d5a3ed6f0ab69aa1511e",
+          "bytes": 53024
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-700-normal-fm10sHOa.woff",
+          "sha256": "a7e5b5c77c88d46f629547b5320392cce5b5a728337c53e90d80d831790fa0fd",
+          "bytes": 87668
+        },
+        {
+          "file": "FONT-LICENSE.txt",
+          "sha256": "91053c23e8a0fe5fc9b5fdbe5ff74ceffd66f6f996c123f1a6ca4c23487c1fff",
+          "bytes": 4380
+        },
+        {
+          "file": "icons/icon-192.png",
+          "sha256": "0f34e0a73f6de372d93fb98b846a1c3651cc0e14111d75e488eeaf46fd4e321c",
+          "bytes": 954
+        },
+        {
+          "file": "icons/icon-512.png",
+          "sha256": "73713fae8fe13f98f51d894fcd708356a3f63f9934a08ba06c2eed0c7222becd",
+          "bytes": 2702
+        },
+        {
+          "file": "icons/icon.svg",
+          "sha256": "ec92d632051e4f9ebfbed98fce5351bdfe8b21b6b4c0e10138841f3b9c71e915",
+          "bytes": 347
+        },
+        {
+          "file": "icons/maskable.svg",
+          "sha256": "5a5c0359af22b10f985b65d036160cc4760df545e16b39f1ab1e266630d6acac",
+          "bytes": 334
+        },
+        {
+          "file": "index.html",
+          "sha256": "9bd46d62b94b3dd11fdc7f88560cda4d8bffc9917badbf7b44b5a370e8c47015",
+          "bytes": 733
+        },
+        {
+          "file": "manifest-en.webmanifest",
+          "sha256": "8f60b51b3e8ffe1f089905e97422fc9a0281995d50ac57161918bd2b4bbf9db8",
+          "bytes": 486
+        },
+        {
+          "file": "manifest.webmanifest",
+          "sha256": "26bc49d26d5f496140d0e73dbf991fd6cd59040a9e4af72a7f1b28b3935d6d5e",
+          "bytes": 375
+        },
+        {
+          "file": "sw.js",
+          "sha256": "45abe335a1e78420defa5db816b18995f0e73b67aeb21a39b518a431aca0478d",
+          "bytes": 18942
+        }
+      ]
+    },
+    {
+      "directory": ".review-dist",
+      "mode": "local-offline-review",
+      "buildIds": [
+        "0.4.0+8fc7ce2af6e2-review"
+      ],
+      "files": [
+        {
+          "file": "_headers",
+          "sha256": "ff6c3feaeed62d3089d8d14e808a1aacba96fa235b711f0d221e855ee9b5544f",
+          "bytes": 422
+        },
+        {
+          "file": "_redirects",
+          "sha256": "6036983e5fc00f0169c9e939b1816ed771eee00e27f2fcc517b819041460b9ef",
+          "bytes": 19
+        },
+        {
+          "file": "assets/index-Ci-N2k9b.css",
+          "sha256": "16734623a26a246b920fef41a7cdc64c29e4604d155ae4a5d97b132537af5787",
+          "bytes": 9022
+        },
+        {
+          "file": "assets/index-yxqJRDci.js",
+          "sha256": "045a46def39ab6cc4859f68eba636bc11710ef0b196fc3f469a803e62337a0d9",
+          "bytes": 479771
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-400-normal-1AoZhAAW.woff",
+          "sha256": "3f3d49ef3202e3fe1ce4501bb194b9480b937fe4375da826b816b1dab0650ce2",
+          "bytes": 87400
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-400-normal-U_i0HMfG.woff2",
+          "sha256": "9cc2d2e90f7b51904468558b4ed529de8a8206497c8edb5e33122bd077e0158c",
+          "bytes": 52668
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-700-normal-BdBAMxnO.woff2",
+          "sha256": "d2d8e6b155248d6706e2e9c6019e88d435873801efe3d5a3ed6f0ab69aa1511e",
+          "bytes": 53024
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-700-normal-fm10sHOa.woff",
+          "sha256": "a7e5b5c77c88d46f629547b5320392cce5b5a728337c53e90d80d831790fa0fd",
+          "bytes": 87668
+        },
+        {
+          "file": "assets/ReviewFaqPage-CaRbmjnD.js",
+          "sha256": "b417e065748f60c8e5985007591e595841a39d8d8c8e9e27bbb21b6033ec921e",
+          "bytes": 334
+        },
+        {
+          "file": "assets/ReviewRecordPanel-B04qaeNo.js",
+          "sha256": "42c6f1eaac17ae0830de8e33b1eacad9a385bf628fa3330b9f8ac37c4667a965",
+          "bytes": 121156
+        },
+        {
+          "file": "assets/ReviewWorkspace-DFsTaDv-.js",
+          "sha256": "b1607f12b3e4c5376f7098b13b8fc938ba3b359315926b2d7a06f00e3ba4b339",
+          "bytes": 6428
+        },
+        {
+          "file": "FONT-LICENSE.txt",
+          "sha256": "91053c23e8a0fe5fc9b5fdbe5ff74ceffd66f6f996c123f1a6ca4c23487c1fff",
+          "bytes": 4380
+        },
+        {
+          "file": "icons/icon-192.png",
+          "sha256": "0f34e0a73f6de372d93fb98b846a1c3651cc0e14111d75e488eeaf46fd4e321c",
+          "bytes": 954
+        },
+        {
+          "file": "icons/icon-512.png",
+          "sha256": "73713fae8fe13f98f51d894fcd708356a3f63f9934a08ba06c2eed0c7222becd",
+          "bytes": 2702
+        },
+        {
+          "file": "icons/icon.svg",
+          "sha256": "ec92d632051e4f9ebfbed98fce5351bdfe8b21b6b4c0e10138841f3b9c71e915",
+          "bytes": 347
+        },
+        {
+          "file": "icons/maskable.svg",
+          "sha256": "5a5c0359af22b10f985b65d036160cc4760df545e16b39f1ab1e266630d6acac",
+          "bytes": 334
+        },
+        {
+          "file": "index.html",
+          "sha256": "342b2f03e26fd3d8dfb444a7f7ba25736059bc1be01cd5596257a9bd2e9d3425",
+          "bytes": 733
+        },
+        {
+          "file": "manifest-en.webmanifest",
+          "sha256": "8f60b51b3e8ffe1f089905e97422fc9a0281995d50ac57161918bd2b4bbf9db8",
+          "bytes": 486
+        },
+        {
+          "file": "manifest.webmanifest",
+          "sha256": "2964b583cfd4deb260937f913c4472dc84dbc4de71c2d8be45fad6bbf12e28e0",
+          "bytes": 404
+        },
+        {
+          "file": "review-build.json",
+          "sha256": "f528d5e38e47376a2ab44d7f435dfff9355c7f8dade92277f1c3688a9a7d1e8d",
+          "bytes": 502
+        },
+        {
+          "file": "review-manifest-en.webmanifest",
+          "sha256": "c967c0c6814ebebf4e31f9ee65892cca8fcb16bf732d950c81662543bb4da1ff",
+          "bytes": 361
+        },
+        {
+          "file": "sw.js",
+          "sha256": "1886f76275c51de4422ff9b96c341e4549005135935ad4164c774a7a3283ceaa",
+          "bytes": 19219
+        }
+      ]
+    },
+    {
+      "directory": ".staging-dist",
+      "mode": "authenticated-network-only-review",
+      "buildIds": [
+        "0.4.0+8fc7ce2af6e2-staging"
+      ],
+      "files": [
+        {
+          "file": "_headers",
+          "sha256": "ff6c3feaeed62d3089d8d14e808a1aacba96fa235b711f0d221e855ee9b5544f",
+          "bytes": 422
+        },
+        {
+          "file": "_redirects",
+          "sha256": "6036983e5fc00f0169c9e939b1816ed771eee00e27f2fcc517b819041460b9ef",
+          "bytes": 19
+        },
+        {
+          "file": "assets/index-BgYfuD3R.js",
+          "sha256": "378cb9104bd06410d4b0aa9254ec8ebc01aa1a752af92cda64876c3fe6be7747",
+          "bytes": 478454
+        },
+        {
+          "file": "assets/index-Ci-N2k9b.css",
+          "sha256": "16734623a26a246b920fef41a7cdc64c29e4604d155ae4a5d97b132537af5787",
+          "bytes": 9022
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-400-normal-1AoZhAAW.woff",
+          "sha256": "3f3d49ef3202e3fe1ce4501bb194b9480b937fe4375da826b816b1dab0650ce2",
+          "bytes": 87400
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-400-normal-U_i0HMfG.woff2",
+          "sha256": "9cc2d2e90f7b51904468558b4ed529de8a8206497c8edb5e33122bd077e0158c",
+          "bytes": 52668
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-700-normal-BdBAMxnO.woff2",
+          "sha256": "d2d8e6b155248d6706e2e9c6019e88d435873801efe3d5a3ed6f0ab69aa1511e",
+          "bytes": 53024
+        },
+        {
+          "file": "assets/noto-naskh-arabic-arabic-700-normal-fm10sHOa.woff",
+          "sha256": "a7e5b5c77c88d46f629547b5320392cce5b5a728337c53e90d80d831790fa0fd",
+          "bytes": 87668
+        },
+        {
+          "file": "assets/ReviewFaqPage-D1SQ4jbl.js",
+          "sha256": "021a3055c1aedd2805d85c5ba3967c84625141b307b6169f61af006d962ce82d",
+          "bytes": 334
+        },
+        {
+          "file": "assets/ReviewRecordPanel-u4dm6N77.js",
+          "sha256": "5827dc85201c9a941e0537cd6711e5e8651cea598fc78651059b64b36865c168",
+          "bytes": 121153
+        },
+        {
+          "file": "assets/ReviewWorkspace-fkQCOcMB.js",
+          "sha256": "c8ef2e4310cfbae9fa88ad6a09addc82cb66c3a3172bf6b7d076a87b98fc224f",
+          "bytes": 6428
+        },
+        {
+          "file": "FONT-LICENSE.txt",
+          "sha256": "91053c23e8a0fe5fc9b5fdbe5ff74ceffd66f6f996c123f1a6ca4c23487c1fff",
+          "bytes": 4380
+        },
+        {
+          "file": "icons/icon-192.png",
+          "sha256": "0f34e0a73f6de372d93fb98b846a1c3651cc0e14111d75e488eeaf46fd4e321c",
+          "bytes": 954
+        },
+        {
+          "file": "icons/icon-512.png",
+          "sha256": "73713fae8fe13f98f51d894fcd708356a3f63f9934a08ba06c2eed0c7222becd",
+          "bytes": 2702
+        },
+        {
+          "file": "icons/icon.svg",
+          "sha256": "ec92d632051e4f9ebfbed98fce5351bdfe8b21b6b4c0e10138841f3b9c71e915",
+          "bytes": 347
+        },
+        {
+          "file": "icons/maskable.svg",
+          "sha256": "5a5c0359af22b10f985b65d036160cc4760df545e16b39f1ab1e266630d6acac",
+          "bytes": 334
+        },
+        {
+          "file": "index.html",
+          "sha256": "a3c942c5e6f093228bec5f71374579ad4130d4d765962f2fcca105661c841cfb",
+          "bytes": 683
+        },
+        {
+          "file": "manifest-en.webmanifest",
+          "sha256": "8f60b51b3e8ffe1f089905e97422fc9a0281995d50ac57161918bd2b4bbf9db8",
+          "bytes": 486
+        },
+        {
+          "file": "review-build.json",
+          "sha256": "371b706e0f8ccd7dffaa769ed871d0d1123198eb3a6e4216ffb23057a276d228",
+          "bytes": 502
+        }
+      ]
+    }
+  ]
+}

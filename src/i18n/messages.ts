@@ -1,0 +1,276 @@
+// Keep Arabic and English together for new UI message IDs. Neither is fetched remotely.
+export const messages: Record<string, readonly [string, string]> = {
+  'staging.connection': ['مراجعة متصلة', 'Online review'],
+  'release.040.title': ['إعداد مراجعة المصادر والاستضافة', 'Source review and hosting preparation'],
+  'release.040.body': ['تحسين أدوات المراجعة الخاصة وتجهيز الاستضافة مع الحفاظ على البيانات والتحديث الآمن. المحتوى الديني غير المعتمد لا يزال محجوباً.', 'Improved private review tools and hosting preparation while preserving data and safe updates. Unapproved religious content remains withheld.'],
+  'staging.online': ['مراجعة محمية تتطلب اتصالاً؛ لا تخزين للمسودات دون اتصال. الملاحظات محلية؛ صدّرها قبل المغادرة. احفظ قبل إعادة التحميل.', 'Authenticated review requires a connection; no offline draft cache. Feedback stays on this device; export before leaving. Save before reloading.'],
+  'sources.observations': ['ملاحظات فحص المصادر — الملحق 2.1', 'Source observations — addendum 2.1'],
+  'sources.boundary': ['وجود المصدر والفحص الجزئي لا يعنيان اكتمال تغطية الادعاءات أو الاعتماد الشرعي. الترجمة الشرعية الإنجليزية غير معتمدة.', 'Source existence and partial checking do not establish complete claim coverage or scholarly approval. English religious translations remain unapproved.'],
+  'sources.partial': ['المصدر موجود؛ فحص جزئي فقط؛ التغطية الكاملة غير مؤكدة.', 'Source located; partial check only; complete coverage unconfirmed.'],
+  'sources.claim': ['الادعاء المحدود محل الفحص', 'Limited claim examined'],
+  'sources.location': ['موضع المصدر', 'Source locator'],
+  'sources.rationale': ['صلة المصدر بالادعاء', 'Evidence-to-claim rationale'],
+  'sources.scope': ['نطاق القول والخلاف', 'Opinion scope and disputed views'],
+  'sources.limits': ['الاستثناءات والبحث المتبقي', 'Limits and outstanding research'],
+  'sources.method': ['طريقة الفحص وهوية القائم به', 'Checking method and identity'],
+  'sources.automated': ['Codex — استرجاع آلي للنص ومقارنة بالملحق؛ ليس مراجعاً شرعياً مؤهلاً ولا مقابلة نصية مستقلة.', 'Codex — automated page-text retrieval and comparison with the addendum; not a qualified scholar or independent textual collation.'],
+  'sources.approval': ['الاعتماد الشرعي', 'Qualified scholarly approval'],
+  'sources.none': ['غير ممنوح؛ السجل يحتاج مراجعة', 'Not granted; record needs review'],
+  'sources.excerpt': ['مقتطف قصير لوحظ في المصدر؛ ليس بطاقة ذكر معتمدة', 'Short excerpt observed on source page; not an approved liturgical card'],
+  "review.unapproved.banner": [
+    "مسودة للمراجعة الشرعية — غير معتمدة للنشر",
+    "Draft for scholarly review — not approved for publication",
+  ],
+  "review.local.only": [
+    "بيئة مراجعة محلية فقط؛ الملاحظات لا تمنح اعتماداً.",
+    "Local review environment only; feedback does not grant approval.",
+  ],
+  "review.access.warning": [
+    "تحتوي هذه البيئة نصوصاً دينية غير معتمدة. المصادر مرشحة والتحقق من كل ادعاء والترجمة لم يستكملا. لا تستخدمها كفتوى ولا تنشرها.",
+    "This environment contains unapproved religious drafts. Candidate references, claim coverage and translations are incomplete. Do not treat it as a fatwa or publish it.",
+  ],
+  "review.tabs": ["تنقل المراجعة", "Review navigation"],
+  "review.guide": ["مسودة دليل العمرة", "Umrah guide draft"],
+  "review.lock": ["قفل عرض المسودات", "Lock draft viewing"],
+  "review.complete.intro": [
+    "اقرأ النص كما سيعرض في الدليل، ثم راجع المصدر والملاحظات. اكتمال تحرير النص لا يعني تحقق الدليل أو الاعتماد الشرعي.",
+    "Read the draft as a guide, then inspect references and notes. Editorial text completeness is not evidence verification or scholarly approval.",
+  ],
+  "review.reading": ["قراءة المسودة", "Read the draft"],
+  "review.view": ["طريقة العرض", "Reader view"],
+  "review.all.records": [
+    "كل السجلات والدعاء المرشح",
+    "All records and the supplication candidate",
+  ],
+  "review.counts": [
+    "٣٤ سجل مناسك و١٦ إجابة أولية ومرشح دعاء واحد؛ لا أحكام معتمدة.",
+    "34 rite records, 16 initial FAQ answers and one supplication candidate; no approved rulings.",
+  ],
+  "review.text.drafted": [
+    "نص تحريري مكتوب — غير معتمد",
+    "Draft text prepared — unapproved",
+  ],
+  "review.text.research_only": [
+    "مذكرة بحث — تحتاج استكمالاً",
+    "Research brief — further work needed",
+  ],
+  "review.text.text_pending": [
+    "النص الحرفي قيد التحقيق",
+    "Exact text awaiting verification",
+  ],
+  "review.translation.pending": [
+    "الترجمة الإنجليزية قيد المراجعة؛ يعرض النص العربي الأصلي دون ترجمة مصطنعة.",
+    "English translation is pending; the original Arabic is displayed without an invented translation.",
+  ],
+  "review.record.meta": ["مراجعة السجل {id}", "Record review {id}"],
+  "review.audience": [
+    "الجمهور الوارد في المسودة:",
+    "Audience stated in the draft:",
+  ],
+  "review.research": ["مسائل تحتاج تحققاً", "Outstanding verification"],
+  "review.candidates": [
+    "المراجع المرشحة وملاحظات الإحالة",
+    "Candidate references and citation notes",
+  ],
+  "review.compare": [
+    "مقارنة بالنسخة السابقة",
+    "Compare with the earlier draft",
+  ],
+  "review.prior.warning": [
+    "هذا نص سابق محفوظ للمقارنة. فحص مقتطف سابق لا يثبت ادعاءات النص المعدل.",
+    "This earlier text is retained for comparison. Checking an earlier excerpt does not verify the revised claims.",
+  ],
+  "review.prior.evidence": [
+    "فحص أدلة النسخة السابقة فقط",
+    "Inspect earlier evidence only",
+  ],
+  "review.feedback": ["ملاحظة المراجع", "Reviewer feedback"],
+  "review.feedback.only": [
+    "الموافقة أو طلب التعديل أو البحث هنا ملاحظة تحريرية فقط، ولا تغير حالة الاعتماد. الاسم اختياري ولا يضاف إلا إذا كتبته بنفسك.",
+    "Agree, revise or research records editorial feedback only and never changes approval status. Your name is optional and is recorded only if you enter it.",
+  ],
+  "review.legacy.feedback": [
+    "حُفظت ملاحظة سابقة؛ لم تنسب موافقتها أو هوية كاتبها إلى هذه النسخة. عند التعديل تبقى النسخة السابقة في السجل.",
+    "Earlier feedback is retained. Its decision or author is not attributed to this edition. Editing preserves an earlier snapshot in history.",
+  ],
+  "review.decision": ["رأي المراجع", "Reviewer decision"],
+  "review.decision.id": ["رأي المراجع — {id}", "Reviewer decision — {id}"],
+  "review.decision.none": ["لم يختر رأي", "No decision selected"],
+  "review.decision.agree": ["موافق تحريرياً", "Agree editorially"],
+  "review.decision.revise": ["يحتاج تعديلاً", "Revise"],
+  "review.decision.research": ["يحتاج بحثاً", "Research"],
+  "review.name": [
+    "اسم المراجع (اختياري، بإدخالك فقط)",
+    "Reviewer name (optional, entered by you only)",
+  ],
+  "review.name.id": ["اسم المراجع — {id}", "Reviewer name — {id}"],
+  "review.export.one.json": [
+    "تصدير هذا السجل JSON",
+    "Export this record as JSON",
+  ],
+  "review.export.one.csv": ["تصدير هذا السجل CSV", "Export this record as CSV"],
+  "review.history": ["ملاحظات الإصدارات السابقة", "Earlier edition feedback"],
+  "review.legacy.edition": [
+    "إصدار سابق غير محدد",
+    "Unversioned earlier edition",
+  ],
+  "review.export.title": ["حزمة ملاحظات المراجعة", "Review feedback package"],
+  "review.export.private": [
+    "ينزل الملف محلياً ويحتوي مسودات وملاحظات وأسماء أدخلها المراجع. ليس إذناً بالنشر ولا يرسل إلى خادم.",
+    "The local download contains drafts, feedback and any reviewer-entered names. It is not permission to publish and is not sent to a server.",
+  ],
+  "review.export.csv": ["تصدير الملاحظات CSV", "Export feedback as CSV"],
+  "review.open.questions": [
+    "أولويات وأسئلة للمراجع الشرعي",
+    "Priorities and questions for the qualified reviewer",
+  ],
+  "review.url.pending": [
+    "لم يختر رابط أولي موثق بعد.",
+    "No verified primary source URL has been selected.",
+  ],
+  "release.030.title": [
+    "بيئة مراجعة المسودة الثانية",
+    "Second-draft editorial review",
+  ],
+  "release.030.body": [
+    "تحسين تصفح المراجعة والملاحظات والتصدير المحلي. لا توجد أحكام دينية أو ترجمات معتمدة جديدة.",
+    "Improved editorial browsing, feedback and local export. No new religious rulings or translations are approved.",
+  ],
+  "common.retry": ["إعادة المحاولة", "Retry"],
+  language: ["اللغة", "Language"],
+  "language.failed": [
+    "تعذر تغيير اللغة؛ بقي النص على جهازك.",
+    "Language could not be changed; your text remains on this device.",
+  ],
+  "faq.title": ["أسئلة فقه العمرة", "Umrah jurisprudence FAQ"],
+  "faq.intro": [
+    "أسئلة المناسك منفصلة عن مساعدة التطبيق. الإجابات لا تنشر قبل اعتمادها.",
+    "Religious questions are separate from app support. Answers are withheld until approved.",
+  ],
+  "faq.search": ["ابحث في أسئلة العمرة", "Search Umrah questions"],
+  "faq.category": ["موضوع السؤال", "Question category"],
+  "faq.all": ["كل الموضوعات", "All topics"],
+  "faq.travel": ["المواقيت والسفر", "Miqat and travel"],
+  "faq.ihram": ["الإحرام", "Ihram"],
+  "faq.tawaf": ["الطواف", "Tawaf"],
+  "faq.sai": ["السعي وإمكانية الوصول", "Sa’i and accessibility"],
+  "faq.finish": ["ختام العمرة والشك", "Completion and uncertainty"],
+  "faq.pending": [
+    "الإجابة قيد المراجعة؛ لا يعرض حكم غير معتمد.",
+    "Answer awaiting review; no unapproved ruling is displayed.",
+  ],
+  "faq.detail": ["التفصيل والسياق", "Explanation and context"],
+  "faq.empty": [
+    "لا توجد أسئلة مطابقة. جرّب كلمة أخرى أو تصنيفاً مختلفاً.",
+    "No matching questions. Try another word or category.",
+  ],
+  "faq.scope": [
+    "قد يتوقف الحكم على ظروفك. التطبيق لا يحدد فدية ولا يحكم بصحة النسك.",
+    "A ruling may depend on your circumstances. This app neither prescribes compensation nor determines validity.",
+  ],
+  "faq.answer": ["الإجابة المختصرة", "Concise answer"],
+  "faq.class": ["التصنيف الفقهي", "Legal classification"],
+  "faq.unclassified": [
+    "بانتظار التصنيف والمراجعة",
+    "Awaiting classification and review",
+  ],
+  "faq.sources": ["الأدلة ومنهج المراجعة", "Evidence and review methodology"],
+  "faq.meaning.pending": [
+    "لا تتوفر ترجمة معنى إنجليزية محققة لهذا النص. يبقى الأصل العربي كما هو.",
+    "No independently checked English meaning is available. The original Arabic text is unchanged.",
+  ],
+  "faq.translation.pending": [
+    "الصياغة الإنجليزية للمحتوى الديني لم تعتمد بعد.",
+    "The English religious content has not been approved.",
+  ],
+  "faq.why": ["لماذا لا تظهر إجابة؟", "Why is no answer shown?"],
+  "faq.review.explainer": [
+    "لم يعتمد مراجع مؤهل هذه الإجابة بعد. زيارة صفحة المصدر وحدها ليست اعتماداً، ولا يمكن تحويل الملاحظات الشخصية إلى حكم آلي.",
+    "A qualified reviewer has not yet approved this answer. Visiting a source page is not approval, and personal notes cannot produce an automated ruling.",
+  ],
+  "support.title": ["مساعدة التطبيق", "App support"],
+  "support.open": ["افتح مساعدة التطبيق", "Open app support"],
+  "support.intro": [
+    "التخزين والنسخ والتثبيت، دون أجوبة فقهية.",
+    "Storage, backups and installation, without jurisprudential answers.",
+  ],
+  "release.version": ["الإصدار", "Version"],
+  "release.new": ["ما الجديد", "What’s new"],
+  "release.020.title": [
+    "اللغة والأسئلة والتحديث الآمن",
+    "Languages, FAQ and safer updates",
+  ],
+  "release.020.body": [
+    "واجهة عربية وإنجليزية تعمل دون اتصال، وأسئلة عمرة منفصلة، وتحديث ينتظر حفظ بياناتك. لا توجد أحكام دينية معتمدة جديدة.",
+    "Offline Arabic and English interfaces, a separate Umrah FAQ, and updates that wait for your data to save. No new religious rulings have been approved.",
+  ],
+  "update.available": ["تحديث متاح", "Update available"],
+  "update.confirm": ["حفظ البيانات ثم تحديث", "Save data and update"],
+  "update.confirmation": [
+    "سيحفظ زاد المسودات أولاً ثم يعيد تحميل التطبيق. أغلق نوافذ زاد الأخرى. هل تريد المتابعة؟",
+    "ZAAD will save drafts first, then reload. Close other ZAAD windows. Continue?",
+  ],
+  "update.check": ["التحقق من تحديث", "Check for updates"],
+  "update.checking": ["جارٍ التحقق…", "Checking…"],
+  "update.none": ["لا يوجد تحديث جاهز حالياً.", "No update is currently ready."],
+  "update.offline": [
+    "يلزم اتصال للتحقق من تحديثات جديدة. البيانات الحالية تعمل دون اتصال.",
+    "An internet connection is needed to check for new updates. Existing data works offline.",
+  ],
+  "update.limit": [
+    "يُتحقق من التحديث عند فتح التطبيق أو استئنافه وهو متصل. لا تصل تحديثات جديدة والجهاز دون اتصال أو التطبيق مغلق.",
+    "Updates are checked when the app opens or resumes online. New updates do not arrive while the device is offline or the app is closed.",
+  ],
+  "update.saving": [
+    "جارٍ حفظ البيانات وتجهيز التحديث؛ انتظر.",
+    "Saving data and preparing the update; please wait.",
+  ],
+  "update.failed": [
+    "لم يتم التحديث. احتفظ بالنص وأعد المحاولة بعد معالجة أخطاء الحفظ.",
+    "The update was not applied. Keep your text and resolve save errors before retrying.",
+  ],
+  "update.tabs": [
+    "أغلق نوافذ زاد الأخرى ثم أعد المحاولة؛ لم يفعّل التحديث.",
+    "Close other ZAAD windows and retry; the update was not activated.",
+  ],
+  "update.blockedForm": [
+    "أضف أو امسح الإدخال الجديد غير المحفوظ قبل التحديث.",
+    "Add or clear the unsaved new entry before updating.",
+  ],
+  "update.unsupported": [
+    "التحديث الآمن غير متاح في هذا المتصفح. صدّر نسخة، وأغلق نوافذ زاد، ثم افتحه متصلاً.",
+    "Safe in-place updating is unavailable in this browser. Export a backup, close ZAAD windows, then reopen online.",
+  ],
+  "update.pending": [
+    "بانتظار اكتمال الحفظ. لم يفعّل التحديث.",
+    "Waiting for writes to finish. The update was not activated.",
+  ],
+  "update.locked": [
+    "التطبيق متوقف مؤقتاً لحفظ البيانات قبل التحديث.",
+    "Editing is temporarily paused to save data before updating.",
+  ],
+  "validation.required": ["هذا الحقل مطلوب.", "This field is required."],
+  "backup.invalidJson": [
+    "ملف JSON غير صالح. لم تتغير بياناتك.",
+    "Invalid JSON file. Your data has not changed.",
+  ],
+  "content.ar.original": ["الأصل العربي", "Original Arabic"],
+  "content.english.pending": [
+    "ترجمة المحتوى الديني قيد المراجعة؛ النص العربي أدناه مسودة لا فتوى.",
+    "Religious translation awaits review; the Arabic below is an editorial draft, not a fatwa.",
+  ],
+  "content.edition": ["نسخة المحتوى", "Content edition"],
+  "review.faq": [
+    "معاينة مسودات الأسئلة الفقهية",
+    "Preview jurisprudence FAQ drafts",
+  ],
+  "file.choose": ["اختر ملف نسخة احتياطية", "Choose a backup file"],
+  "file.none": ["لم يختر ملف", "No file selected"],
+  "draft.fields": ["نصك الشخصي، بلا ترجمة", "Your personal text, unchanged"],
+  "evidence.title": ["أدلة: {title}", "Evidence: {title}"],
+  "review.note": ["ملاحظة تحريرية — {id}", "Editorial feedback — {id}"],
+  "review.generic": [
+    "تفاصيل تحريرية في أصل المسودة العربي؛ لم تعتمد ترجمتها.",
+    "Editorial details remain in the original Arabic draft; their translation is unapproved.",
+  ],
+};

@@ -1,0 +1,20 @@
+// Static configuration/artifact checks. Actual Caddy/TLS tests are a separate owner preflight.
+import assert from 'node:assert/strict';
+import { readFileSync, existsSync } from 'node:fs';
+const config = readFileSync('hosting/Caddyfile','utf8');
+const review = config.slice(config.indexOf('{$ZAAD_REVIEW_DOMAIN}'));
+assert.ok(review.indexOf('basic_auth {') < review.indexOf('file_server'));
+assert.ok(!review.includes('handle_path') && !review.includes('reverse_proxy'));
+assert.ok(review.includes('{$ZAAD_REVIEW_PASSWORD_HASH}'));
+assert.ok(review.includes('private, no-store') && review.includes('Vary Authorization'));
+assert.ok(review.includes("worker-src 'none'"));
+for (const token of ['Strict-Transport-Security','X-Content-Type-Options','frame-ancestors','noindex, nofollow, noarchive','try_files {path} =404','public, max-age=31536000, immutable']) assert.ok(config.includes(token));
+assert.ok(!/^\s*log\b/m.test(config), 'No access logging enabled by default');
+const marker = JSON.parse(readFileSync('.staging-dist/review-build.json','utf8'));
+assert.equal(marker.privateReview,true);
+assert.equal(marker.authenticatedStaging,true);
+assert.equal(marker.publicDistribution,false);
+assert.equal(marker.offlineDraftCache,false);
+assert.ok(!existsSync('.staging-dist/sw.js'));
+assert.ok(!readFileSync('.staging-dist/index.html','utf8').includes('rel="manifest"'));
+console.log('PASS: hosting policy and network-only private staging artifacts. This static check does not prove live authentication, TLS or DNS.');

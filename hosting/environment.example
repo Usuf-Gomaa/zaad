@@ -1,0 +1,6 @@
+# Example names only; these must be two distinct owner-controlled DNS names.
+ZAAD_PUBLIC_DOMAIN=app.example.org
+ZAAD_REVIEW_DOMAIN=review.example.org
+ZAAD_REVIEW_USER=invited-scholar
+# Generate interactively with `caddy hash-password`; never commit a password or actual hash.
+ZAAD_REVIEW_PASSWORD_HASH=REPLACE_WITH_BCRYPT_HASH

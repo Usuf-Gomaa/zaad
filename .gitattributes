@@ -1,0 +1,7 @@
+# Preserve source bytes on every platform. Religious input fingerprints use raw bytes.
+# Do not let clone/checkout line-ending conversion invalidate reviewed-document hashes.
+* -text
+
+# Supplied Markdown uses intentional two-space hard line breaks; retain its raw hashes.
+ZAAD_RELIGIOUS_CONTENT_V2_REVIEW_DRAFT.md whitespace=-blank-at-eol,cr-at-eol
+ZAAD_RELIGIOUS_CONTENT_V2_1_SOURCE_CHECK_ADDENDUM.md whitespace=-blank-at-eol,cr-at-eol
